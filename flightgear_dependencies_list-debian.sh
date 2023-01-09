@@ -2,7 +2,7 @@
 
 # Dependencies for Debian Linux
 # Compilers and Code download
-local basic_dependencies=(git subversion cmake build-essential ccache)
+local basic_dependencies=(git subversion ca-certificates cmake build-essential ccache)
 # PLIB
 local plib_dependencies=(automake autoconf autogen)
 # Minimal Depdencies to compiler OpenSceneGraph, SimGear and FlightGear. No QT Launcher.
